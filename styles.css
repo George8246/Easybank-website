@@ -1,0 +1,400 @@
+body {
+  font-family: 'Public Sans', sans-serif;
+  font-size: 17.35px;
+  overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: hsl(233, 26%, 24%);
+}
+
+h1, h2, h3, h4, h6 {
+  margin-bottom: 20px;
+}
+
+h5 {
+  color: hsl(233, 26%, 24%);
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+h5:hover {
+  color: #2fc988;
+}
+
+section {
+  background-color: #fff;
+}
+
+p {
+  color: hsl(233, 8%, 62%);
+  margin-bottom: 30px;
+}
+
+.container-fluid {
+  padding: 5% 10%;
+}
+
+.main-btn {
+  border-radius: 100px;
+  width: 155px;
+  height: 46px;
+  padding-top: 10px;
+  background-image: linear-gradient(0.25turn, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  border-image: linear-gradient(0.25turn, hsl(136, 65%, 51%), hsl(192, 70%, 51%)) 30;
+}
+
+.main-btn:hover {
+  filter: brightness(1.1);
+}
+
+/* navbar section */
+#Easybank-nav {
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+#Easybank-nav .navbar-brand {
+  padding-left: 10%;
+}
+
+#Easybank-nav button {
+  padding-right: 10%;
+}
+
+#Easybank-nav .btn {
+  padding-right: 10%;
+}
+
+.navbar {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#Easybank-nav .navbar-brand, #Easybank-nav button, #Easybank-nav li {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-light .navbar-toggler {
+  border: none;
+  box-shadow: none;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("images/icon-hamburger.png");
+}
+
+#Easybank-nav ul {
+  margin-left: 30%;
+}
+
+.last-li {
+  margin-right: 45%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  cursor: pointer;
+}
+
+.NIL:hover .navbar-light .navbar-nav .nav-link:hover {
+  color: #000;
+}
+
+.NIL:hover {
+  border-bottom: 4px solid;
+  border-image: linear-gradient(0.25turn, hsl(136, 65%, 51%), hsl(192, 70%, 51%)) 30;
+}
+
+/* end of the navbar section */
+/* ---------------------------------------------------------------------------------- */
+/* intro section */
+#intro {
+  background-image: url("images/bg-intro-desktop.png");
+  background-repeat: no-repeat;
+  background-position: right -200% top -264px;
+  background-size: 85%;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#intro .row {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#intro h1 {
+  font-size: 4rem;
+}
+
+#left-intro {
+  padding-top: 20%;
+  padding-bottom: 10%;
+  width: 39%;
+}
+
+#right-intro img {
+  position: relative;
+  top: -125px;
+  right: -124px;
+  height: 1000px;
+  z-index: 0;
+}
+
+#right-intro {
+  width: 58.8%;
+  height: 700px;
+  overflow-y: visible;
+}
+
+/* end of the intro section */
+/* ---------------------------------------------------------------------------------- */
+/* reason section */
+#reason {
+  background-color: hsl(220, 16%, 96%);
+}
+
+#reason img {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.p-head {
+  width: 51%;
+}
+
+/* end of the reason section */
+/* ---------------------------------------------------------------------------------- */
+/* Articles section */
+#Articles img {
+  width: 100%;
+  height: 50%;
+  border-radius: 3px;
+}
+
+.Article-body {
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.names {
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+/* end of the Articles section */
+/* ---------------------------------------------------------------------------------- */
+/* footer section */
+#footer {
+  background-color: hsl(233, 26%, 24%);
+  color: #fff;
+  padding-bottom: 1%;
+}
+
+.f-l {
+  margin-bottom: 50px;
+}
+
+#footer-logo {
+  filter: brightness(0) invert(1);
+}
+
+.Contact-logo {
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+
+#second-list {
+  padding-left: 50px;
+}
+
+.f-r-l {
+  text-align: right;
+}
+
+.Contact-logo:hover {
+  color: #2fc988;
+}
+
+footer ul li:hover {
+  color: #2fc988;
+}
+
+/* ---------------------------------------media--------------------------------------- */
+@media (max-width: 768px) {
+  .navbar-collapse {
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #fff;
+    top: 70px;
+    right: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 90%;
+    margin: 10px 20px;
+    filter: brightness(1);
+  }
+
+  #Easybank-nav ul {
+    margin-left: 0;
+  }
+
+  .drowp-links {
+    width: 80%;
+    margin-left: 10%
+  }
+
+  #Easybank-nav .btn {
+    display: none;
+  }
+
+  #intro {
+    background-image: url("images/bg-intro-mobile.png");
+    background-repeat: no-repeat;
+    background-position: right top -120px;
+    background-size: 100%;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 5%;
+  }
+
+  #left-intro {
+    width: 100%;
+  }
+
+  #left-intro h1 {
+    font-size: 3rem;
+  }
+
+  #right-intro {
+    float: none;
+    height: 490px;
+    width: 100%;
+  }
+
+  #right-intro img {
+    width: 100%;
+    height: auto;
+    top: -150px;
+    right: 0;
+  }
+
+  footer {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    text-align: center;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
+    background-color: #fff;
+    top: 70px;
+    right: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 90%;
+    margin: 10px 20px;
+    filter: brightness(1);
+  }
+
+  #Easybank-nav ul {
+    margin-left: 0;
+  }
+
+  .drowp-links {
+    width: 80%;
+    margin-left: 10%
+  }
+
+  #Easybank-nav .btn {
+    display: none;
+  }
+
+  #intro {
+    background-image: url("images/bg-intro-mobile.png");
+    background-repeat: no-repeat;
+    background-position: right top -120px;
+    background-size: 100%;
+    padding-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 5%;
+  }
+
+  #left-intro {
+    width: 100%;
+  }
+
+  #left-intro h1 {
+    font-size: 3rem;
+  }
+
+  #right-intro {
+    float: none;
+    height: 300px;
+    width: 100%;
+  }
+
+  #right-intro img {
+    width: 100%;
+    height: auto;
+    top: -150px;
+    right: 0;
+  }
+
+  #reason h1 {
+    width: 50%;
+    margin: 0 auto 20px;
+  }
+
+  .p-head {
+    width: 100%;
+  }
+
+  #Articles {
+    text-align: left;
+  }
+
+  .f-l {
+    margin-bottom: 25px;
+  }
+
+  #first-list {
+    margin-top: 20px;
+  }
+
+  #second-list {
+    padding: 0 12px;
+  }
+
+  .f-r-l {
+    margin-top: 20px;
+    padding-left: 0;
+    text-align: center;
+  }
+}
